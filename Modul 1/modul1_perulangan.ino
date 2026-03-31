@@ -1,8 +1,7 @@
 int timer = 100;           
 // delay. Semakin tinggi angkanya, semakin lambat waktunya. 
 void setup() { 
-  // gunakan loop for untuk menginisialisasi setiap pin sebagai 
-  output: 
+  // gunakan loop for untuk menginisialisasi setiap pin sebagai output 
   for (int ledPin = 2; ledPin < 7; ledPin++) { 
   pinMode(ledPin, OUTPUT); 
   } 
