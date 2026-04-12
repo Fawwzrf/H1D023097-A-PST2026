@@ -28,6 +28,11 @@ Berikut adalah daftar modul yang telah atau sedang dipelajari dan diselesaikan d
   - Penerapan struktur kontrol percabangan (`if-else`).
   - Penerapan struktur perulangan (`for`) untuk mengontrol dan merangkai berbagai variasi pola lampu LED (contoh: *running LED*, hidup-mati bergantian).
   
+- ✅ **Modul 2: Pemrograman GPIO**
+  - Pengendalian komponen *Seven Segment* sebagai *counter* mandiri untuk mendisplay digit dan karakter angka/huruf desimal hingga heksadesimal.
+  - Implementasi metode *Edge Detection* (deteksi transisi perubahan sinyal logika) pada input *Push Button* dengan memanfaatkan pengaktifan *Pull-Up* internal (`INPUT_PULLUP`).
+  - Integrasi input *Push Button* dengan output *Seven Segment* untuk menciptakan sistem *counter* presisi berbasis interaksi (*Increment* & *Decrement*).
+
 *(Daftar ini akan diperbarui secara berkala seiring berjalannya jadwal praktikum).*
 
 ---
@@ -35,7 +40,7 @@ Berikut adalah daftar modul yang telah atau sedang dipelajari dan diselesaikan d
 ## 🛠️ Perangkat Lunak & Keras (Tools)
 
 Peralatan utama yang digunakan selama praktikum berlangsung:
-- **Hardware:** Arduino UNO R3 (atau *board board* mikrokontroler sejenis), LED, Resistor, *Breadboard*, Kabel *Jumper*.
+- **Hardware:** Arduino UNO R3 (atau *board* mikrokontroler sejenis), LED, Resistor, *Breadboard*, Kabel *Jumper*, *Seven Segment Display*, *Push Button*.
 - **Software:** Arduino IDE (untuk *coding* dan unggah program).
 - **Simulator:** Wokwi / Tinkercad (opsional, untuk simulasi dan visualisasi rangkaian virtual).
 
