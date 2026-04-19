@@ -33,6 +33,11 @@ Berikut adalah daftar modul yang telah atau sedang dipelajari dan diselesaikan d
   - Implementasi metode *Edge Detection* (deteksi transisi perubahan sinyal logika) pada input *Push Button* dengan memanfaatkan pengaktifan *Pull-Up* internal (`INPUT_PULLUP`).
   - Integrasi input *Push Button* dengan output *Seven Segment* untuk menciptakan sistem *counter* presisi berbasis interaksi (*Increment* & *Decrement*).
 
+- ✅ **Modul 3: Protokol Komunikasi**
+  - Mengimplementasikan komunikasi persinyalan asinkron *Serial UART* untuk mengontrol modul eksternal via antarmuka monitor/komputer, dibekali kerangka *state machine* rekayasa *non-blocking timer (`millis()`)* tanpa pembekuan instrumen *delay*.
+  - Integrasi komunikasi periperal perangkat paralel sinkron *Inter-Integrated Circuit (I2C)* berbasis arsitektur *topologi bus* berbagi kanal antar *slave* pasif via kabel `SDA` & `SCL`.
+  - Simulasi kombinasi instrumen peragaan data melalui proyeksi pembacaan modul *ADC (Analog to Digital)* potensio linear ke visualisasi *level progress bar* fungsional pada *I2C LCD Matrix Display 16x2* dengan konversi persentase komputasi presisi.
+
 *(Daftar ini akan diperbarui secara berkala seiring berjalannya jadwal praktikum).*
 
 ---
